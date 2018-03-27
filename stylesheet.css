@@ -1,0 +1,95 @@
+/* Body */
+body{
+	background-image: url(images/backgroundbanner.jpg);
+	background-size: 100% 100%;
+}
+
+/* H1 */
+h1 {
+	text-align: center;
+	font-family: Times New Roman;
+}
+
+/* H2 */
+h2 {
+	font-family: Times New Roman;
+}
+
+/* Grid Container #1 */
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat (3 , 50px);
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+/* Grid Item #1 */
+.g4444 {
+	font-family: Geneva;
+	border: 2px solid black;
+	background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
+	background-size: 1200% 1200%;
+	-webkit-animation: rainbow 30s ease infinite;
+	animation: rainbow 8s ease infinite;
+}
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+}
+
+/* Grid Container #2 */
+.grid-container2 {
+	display: grid;
+	grid-template-rows: repeat (1 , 300px);
+	margin-left: 300px;
+	margin-right: 300px;
+
+}
+
+/* Welcome Banner */
+/* Image Alignment */
+.classroom-img {
+	display: block;
+	width: 1500px ;
+	height: 200px ;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+}
+
+/* Text Alignment to Image */
+.container {
+    position: relative;
+}
+
+/* Text Alignment */
+.center {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 46px;
+	font-family: Times New Roman;
+}
+
+/* Link (Unvisited & Visited Colors */
+/* Unvisited */
+a:link {
+	color:blue;
+}
+/*Visited*/
+a:visited {
+	color: blue;
+}
+
+a:hover { 
+	cursor: url(cursors/dragonball.cur), auto;
+}
+
