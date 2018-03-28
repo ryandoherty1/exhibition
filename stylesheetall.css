@@ -17,7 +17,26 @@ h2 {
 
 p {
 	font-family: Times New Roman;
-	background-color: white;
+}
+
+.center {
+	text-align: center;
+	background: white;
+	font-size: 26px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	font-family: Times New Roman;
+}
+
+.g99988822 {
+	text-align: center;
+	background: black;
+	font-size: 26px;
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 50px;
+	font-family: Times New Roman;
 }
 
 /*Homepage Code Start */
@@ -186,6 +205,11 @@ a:hover {
 	text-align: center;
 }
 
+.g19562758 {
+	width: 800px;
+	height: 500px;
+}
+
 .g95352394 {
 	display:grid;
 	justify-content: center;
@@ -196,6 +220,16 @@ a:hover {
 	display: grid;
 	grid-template-rows: repeat (1 , 300px);
 	justify-content: center;
+}
+
+.transcript {
+	width: 500px;
+	height: 500px;
+}
+
+.transcript2 {
+	width: 500px;
+	height: 250px;
 }
 
 /*End Noel's Page Code*/
@@ -236,4 +270,15 @@ a:hover {
 	margin-left: 300px;
 	margin-right: 300px;
 	justify-content: center;
+}
+
+.g83428622 {
+	width: 500px;
+	height: 500px;
+	transform: rotate(90deg);
+}
+
+.g66843997 {	
+	width: 500px;
+	height: 500px;
 }
